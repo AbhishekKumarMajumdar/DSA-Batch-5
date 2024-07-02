@@ -1,7 +1,7 @@
 
 // Problem1
 
-package Rahul;
+// package Rahul;
 
 
 import java.util.Scanner;
