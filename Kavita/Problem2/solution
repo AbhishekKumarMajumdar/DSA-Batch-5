@@ -1,0 +1,38 @@
+#include <cstdio>
+#include <vector>
+#include <iostream>
+#include <algorithm>
+using namespace std;
+
+
+int main() {
+    int n; //number of variable-length arrays
+    int q; // number of queries
+    int index; 
+    int value; 
+    int col;    //an index in array a
+    int size;   // size of current arr
+    
+    vector<vector<int>>v;  //2-D vector to store arrays
+    cin>>n>>q;
+
+    //reading the arrays
+    for(int i=0;i<n;i++){
+        vector<int>inner_vector;
+        cin>>size;
+        for(int j=0;j<size;j++){
+            cin>>value;
+            inner_vector.push_back(value);  
+        }
+        v.push_back(inner_vector);   // add the inner vector(single-dimensional vector) to the 2-D vector
+        }
+    
+    //print the result of queries
+    for(int k=0;k<q;k++)
+    {
+        cin>>col>>index;
+        cout<<v[col][index]<<endl;
+    }
+    
+    return 0;
+}
