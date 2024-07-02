@@ -1,0 +1,47 @@
+
+# String Manipulation Problem
+
+## Problem Statement
+
+given two strings, `a` and `b`. our task is to perform the following operations and print the results:
+
+1. Print the lengths of both strings.
+2. Print the concatenation of the two strings.
+3. Swap the first characters of both strings and print the modified strings.
+
+## Input Format
+
+- The first line contains the string `a`.
+- The second line contains the string `b`.
+
+## Output Format
+
+1. Print two space-separated integers representing the lengths of `a` and `b` on the first line.
+2. Print the concatenated string `a + b` on the second line.
+3. Print the two modified strings (with their first characters swapped) separated by a space on the third line.
+
+## Sample Input
+
+```
+abcd
+ef
+```
+
+## Sample Output
+
+```
+4 2
+abcdef
+ebcd af
+```
+
+## Explanation
+
+Given the input strings:
+- `a` = "abcd"
+- `b` = "ef"
+
+1. The lengths of `a` and `b` are 4 and 2, respectively.
+2. The concatenation of `a` and `b` is "abcdef".
+3. After swapping the first characters of `a` and `b`, the strings become "ebcd" and "af".
+
