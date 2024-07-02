@@ -3,7 +3,7 @@
 
 ## Problem Statement
 
-You are given `n` variable-length arrays and `q` queries. Each query asks you to retrieve an element from one of the arrays.
+I have given `n` variable-length arrays and `q` queries. Each query asks to retrieve an element from one of the arrays.
 
 ## Input Format
 
