@@ -1,0 +1,30 @@
+
+# Flowerbed Problem
+
+## Problem Statement
+
+You have a long flowerbed in which some of the plots are planted, and some are not. However, flowers cannot be planted in adjacent plots. Given an array `flowerbed` containing `0`s and `1`s, where `0` means empty and `1` means not empty, and a number `n`, return if `n` new flowers can be planted in the flowerbed without violating the no-adjacent-flowers rule.
+
+## Example
+
+### Example 1
+
+int[] flowerbed = {1, 0, 0, 0, 1};
+int n = 1;
+bool result = canPlaceFlowers(flowerbed, n);  // Output: true
+```
+
+### Example 2
+
+int[] flowerbed = {1, 0, 0, 0, 1};
+int n = 2;
+bool result = canPlaceFlowers(flowerbed, n);  // Output: false
+```
+
+## Constraints
+
+- The input array `flowerbed` will contain at most 20000 elements.
+- `flowerbed[i]` is `0` or `1`.
+- There are no two adjacent `1`s in the `flowerbed` array.
+- `0 <= n <= flowerbed.length`
+
